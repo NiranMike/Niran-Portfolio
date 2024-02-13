@@ -5,7 +5,7 @@ import Link from "next/link";
 import FramerAnimation from "@/components/FramerAnimation";
 import { LinkedinIcon } from "lucide-react";
 import HomeText from "../components/Home/Home";
-import TextHover from "@/components/Home/text-hover";
+import TextHover from "@/components/Home/Text-Hover";
 
 const words = [
   "FRONTEND DEVELOPER",
