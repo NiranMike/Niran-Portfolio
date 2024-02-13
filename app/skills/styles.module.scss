@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  height: 100vh;
+  padding-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 480px) {
+    align-items: normal;
+    padding-top: 2rem;
+  }
+  @media (max-width: 360px) {
+    align-items: normal;
+    padding-top: 1rem;
+  }
+}
+
+.projectContainer {
+  position: relative;
+  width: 100%;
+  @media (max-width: 480px) {
+  padding-top: 3rem;
+  }
+}
+
+.projectContainer div {
+  background-color: rgb(0, 0, 0);
+  z-index: 20;
+  border-top: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -2.5vw;
+  @media (max-width: 480px) {
+    margin-bottom: -5vw;
+    font-weight: 500;
+    // padding: 10px 0;
+  }
+}
+
+.projectContainer div p {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  font-size: clamp(1.56rem, 0.58rem + 3.9vw, 3.4rem);
+  padding-left: 10px;
+  text-transform: uppercase;
+  pointer-events: none;
+
+  @media (max-width: 640px) {
+    font-size: clamp(1.5rem, 0.58rem + 5vw, 4.5rem);
+  }
+  @media (max-width: 480px) {
+    line-break: anywhere;
+    font-size: 2.2rem;
+  }
+}
