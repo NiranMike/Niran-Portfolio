@@ -77,7 +77,7 @@ export default function About() {
             <span>Frontend Web Developer</span>.I’ve been into frontend
             development for over 2 years. I’ve learned a lot in that time
             and now I want to see how far I’ve come. Able to perform
-            successfully both alone and in teams. My long-term objective is to
+            successfully both alone and in a team. My long-term objective is to
             work as a senior frontend engineer.
           </motion.p>
 
